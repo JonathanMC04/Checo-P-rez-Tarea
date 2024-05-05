@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sergio "Checo" Pérez</title>
+    <style>
+        body {
+            background-color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        .container {
+            max-width: 500px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        p {
+            line-height: 1.9;
+        }
+        .centrar-imagen {
+            display: block; 
+            margin-left: auto; 
+            margin-right: auto; 
+        }
+          @keyframes moverLogo {
+            0% { transform: translateX(0); } 
+            100% { transform: translateX(calc(100vw - 100px)); }
+        }
+
+        .logo {
+            position: fixed;
+            bottom: 20px;
+            left: -150px; 
+            width: 150px;
+            height: auto;
+            animation: moverLogo 10s linear infinite;
+        }
+</style>
+</head>
+<body>
+
+<img class="logo" src="https://p4.wallpaperbetter.com/wallpaper/933/33/122/products-red-bull-wallpaper-preview.jpg" alt="Logo de Red Bull">
+<header>
+    <h1>Sergio "Checo" Pérez</h1>
+</header>
+<div class="container">
+<img class="centrar-imagen" src="https://p4.wallpaperbetter.com/wallpaper/457/180/907/checo-sergio-perez-red-bull-racing-formula-1-hd-wallpaper-preview.jpg" alt="Sergio Pérez">
+<h2>Biografía</h2>
+<p>Sergio "Checo" Pérez es un piloto de Fórmula 1 nacido el 26 de enero de 1990 en Guadalajara, Jalisco, México. Ha competido en varios equipos a lo largo de su carrera, incluyendo Sauber, McLaren, Force India/Racing Point y Red Bull Racing.</p>
+   
+<h2>Logros</h2>
+<ul>
+<li>Ha obtenido varios podios en su carrera en la Fórmula 1.</li>
+<li>Ganó su primera carrera en el Gran Premio de Sakhir en 2020, convirtiéndose en el primer mexicano en ganar un Gran Premio de Fórmula 1 desde Pedro Rodríguez en 1970.</li>
+<li>Es conocido por su habilidad para cuidar los neumáticos y por su agresivo estilo de conducción.</li>
+<li>Es conocido por su apodo "El viejo Sabroso"su origen es el video teaser con el que la F1 presentaba a los pilotos en 2021, donde el mexicano salía parado de tres cuartos y volteaba sobre su hombro.</li>
+</ul>   
+<h2>Enlaces</h2>
+<p>Para obtener más información sobre Sergio "Checo" Pérez, puedes visitar su página oficial en la <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0&ab_channel=doober43">web oficial</a>.</p>
+</div>
+</body>
+</html>
